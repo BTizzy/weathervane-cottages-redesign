@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Direct | Weathervane Cottages — Portsmouth, RI</title>
+  <meta name="description" content="Book your stay at Weathervane Cottages directly — best rates, no third-party fees, and personalized service from the owners. Cottages, glamping tents, and the Bungalow." />
+  <link rel="canonical" href="https://btizzy.github.io/weathervane-cottages-redesign/book.html" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LodgingReservation",
+    "name": "Weathervane Cottages — Book Direct",
+    "url": "https://weathervanecottages.com/book-online/",
+    "telephone": "+1-401-366-8010",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1172 West Main Road",
+      "addressLocality": "Portsmouth",
+      "addressRegion": "RI",
+      "postalCode": "02871",
+      "addressCountry": "US"
+    }
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,24..144,300..700;1,24..144,300..700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="page page--book">
+
+  <header class="site-header is-scrolled" id="siteHeader">
+    <div class="site-header__inner wrap">
+      <a href="index.html" class="brand" aria-label="Weathervane Cottages home">
+        <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true">
+          <path d="M16 2 L16 28 M16 6 L4 16 L28 16 M16 6 L8 14 L24 14 M16 6 L10 18 L22 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+          <circle cx="16" cy="4" r="1.6" fill="currentColor"/>
+        </svg>
+        <span class="brand__text">Weathervane<small>Cottages · Portsmouth, RI</small></span>
+      </a>
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="stay.html" class="nav__link">Stay</a></li>
+          <li><a href="gatherings.html" class="nav__link">Gather</a></li>
+          <li><a href="story.html" class="nav__link">Our Story</a></li>
+          <li><a href="area.html" class="nav__link">The Area</a></li>
+          <li><a href="faq.html" class="nav__link">FAQ</a></li>
+        </ul>
+        <a href="book.html" class="btn btn--sunset btn-arrow nav__cta">Book Direct</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="page-header__media">
+      <img src="assets/property/grounds-1.jpg" alt="The Bungalow" />
+    </div>
+    <div class="page-header__overlay"></div>
+    <div class="page-header__inner wrap">
+      <div class="t-eyebrow" style="color: var(--c-sunset-soft);">Book Direct</div>
+      <h1 class="t-display">Best rates. Real <em>people</em>. No fees.</h1>
+      <p class="t-lede">Reserve your stay directly with us — no third-party markups, no surprise fees, and personalized service from the owners.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap-wide">
+      <div class="book">
+        <div class="book__form-wrap" data-reveal>
+          <h2>Request a reservation</h2>
+          <p>Tell us about your stay. We'll confirm availability and rates within a few hours.</p>
+          <form class="form-grid" onsubmit="event.preventDefault(); this.querySelector('.form-success').hidden=false; this.querySelector('.form-success').scrollIntoView({behavior:'smooth', block:'center'}); this.reset();">
+            <div class="form-row">
+              <div class="form-field">
+                <label for="checkin">Check-in</label>
+                <input type="date" id="checkin" name="checkin" required />
+              </div>
+              <div class="form-field">
+                <label for="checkout">Check-out</label>
+                <input type="date" id="checkout" name="checkout" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="guests">Guests</label>
+                <select id="guests" name="guests" required>
+                  <option value="1">1 guest</option>
+                  <option value="2" selected>2 guests</option>
+                  <option value="3">3 guests</option>
+                  <option value="4">4 guests</option>
+                  <option value="5-8">5–8 guests</option>
+                  <option value="9+">9+ guests</option>
+                  <option value="private">Private property buyout</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label for="unit">Accommodation</label>
+                <select id="unit" name="unit" required>
+                  <option value="any">Any / recommend</option>
+                  <option value="cottage">Cottage</option>
+                  <option value="bungalow">Bungalow</option>
+                  <option value="tent">Glamping tent</option>
+                  <option value="private">Whole property (event)</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+            <div class="form-field">
+              <label for="notes">Anything we should know?</label>
+              <textarea id="notes" name="notes" placeholder="Special occasion, accessibility needs, dogs, etc."></textarea>
+            </div>
+            <button type="submit" class="btn btn--sunset btn-arrow btn--lg form-submit">Send Reservation Request</button>
+            <div class="form-success" hidden style="text-align:center; padding: 1rem; background: var(--c-cream); border-radius: var(--r-md); color: var(--c-sage); font-weight: 500;">
+              ✓ Thanks — we'll be in touch within a few hours.
+            </div>
+          </form>
+        </div>
+
+        <aside class="book__side" data-reveal data-reveal-delay="1">
+          <h3>Why book direct?</h3>
+          <div class="why">
+            <div class="why-item">
+              <h4>Best rate, guaranteed</h4>
+              <p>No third-party markups. The rate you see is the rate you pay.</p>
+            </div>
+            <div class="why-item">
+              <h4>Real humans, same-day replies</h4>
+              <p>Call or message us directly. We're the owners, not a call center.</p>
+            </div>
+            <div class="why-item">
+              <h4>Personalized stays</h4>
+              <p>Anniversary? Pet? Late arrival? Just ask — we'll sort it.</p>
+            </div>
+            <div class="why-item">
+              <h4>Flexible policies</h4>
+              <p>Reach out before booking. We'll work with you on changes.</p>
+            </div>
+          </div>
+
+          <div class="book__policies">
+            <h4>At a glance</h4>
+            <ul>
+              <li><strong>Check-in</strong> 3:00 PM – 7:00 PM</li>
+              <li><strong>Check-out</strong> by 11:00 AM</li>
+              <li><strong>Minimum stay</strong> 2 nights (varies by season)</li>
+              <li><strong>Children</strong> welcome (crystal-clear quiet hours after 10 PM)</li>
+              <li><strong>Pets</strong> select cottages only — please ask</li>
+              <li><strong>Smoking</strong> non-smoking property</li>
+            </ul>
+          </div>
+
+          <div style="margin-top: 1.5rem; text-align: center;">
+            <a href="tel:+14013668010" class="btn btn--dark-ghost btn-arrow">Call (401) 366-8010</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="site-footer__grid">
+        <div>
+          <div class="footer__brand">Weathervane Cottages</div>
+          <p class="footer__pitch">Relax. Recline. Recharge.<br />Portsmouth, Rhode Island.</p>
+          <div class="footer__contact">
+            <div><strong>1172 West Main Road</strong></div>
+            <div>Portsmouth, RI 02871</div>
+            <div><a href="tel:+14013668010">(401) 366-8010</a></div>
+          </div>
+        </div>
+        <div>
+          <div class="footer__heading">Stay</div>
+          <ul class="footer__list">
+            <li><a href="stay.html">Cottages</a></li>
+            <li><a href="stay.html">Glamping Tents</a></li>
+            <li><a href="stay.html">The Bungalow</a></li>
+            <li><a href="gatherings.html">Private Booking</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__heading">Experience</div>
+          <ul class="footer__list">
+            <li><a href="story.html">Our Story</a></li>
+            <li><a href="area.html">The Area</a></li>
+            <li><a href="gatherings.html">Gatherings &amp; Events</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__heading">Connect</div>
+          <div class="footer__social">
+            <a href="https://www.instagram.com/weathervanecottages/" aria-label="Instagram">IG</a>
+            <a href="https://www.facebook.com/profile.php?id=61563198885459" aria-label="Facebook">FB</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div>© 2026 Weathervane Cottages · All rights reserved</div>
+        <div class="footer__legal"><a href="#">Privacy</a><a href="#">Terms</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
