@@ -457,6 +457,7 @@ svg[class^="icon-"] {
 .site-nav a.btn--nav {
   color: var(--white);
   margin-left: 0.5rem;
+  padding: 0.55rem 1.15rem;
 }
 
 .site-nav a.btn--nav:hover {
