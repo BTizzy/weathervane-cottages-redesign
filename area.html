@@ -1,273 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Area | Weathervane Cottages — Portsmouth, RI</title>
-  <meta name="description" content="Weathervane Cottages is on the west side of Aquidneck Island — 4.5 miles from Newport, 7 miles from Bristol. Beaches, farms, sailing, vineyards, and easy day trips to Providence, Mystic, and Boston." />
-  <link rel="canonical" href="https://btizzy.github.io/weathervane-cottages-redesign/area.html" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Area | Aquidneck Island & Newport County | Weathervane Cottages</title>
+  <meta name="description" content="Explore Aquidneck Island from Weathervane Cottages. Newport 4.5 miles, Bristol 7 miles. Beaches, mansions, farms, vineyards, and Narragansett Bay sunsets.">
+  <link rel="canonical" href="https://btizzy.github.io/weathervane-cottages-redesign/area.html">
+  <meta name="theme-color" content="#1C2838">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://btizzy.github.io/weathervane-cottages-redesign/area.html">
+  <meta property="og:title" content="The Area | Weathervane Cottages">
+  <meta property="og:description" content="Aquidneck Island at your doorstep. Newport, Bristol, bay sunsets, and Newport County adventures.">
+  <meta property="og:image" content="https://btizzy.github.io/weathervane-cottages-redesign/assets/property/sunset-2.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Area | Weathervane Cottages">
+  <meta name="twitter:description" content="Discover Newport County from your cottage on Aquidneck Island.">
+  <meta name="twitter:image" content="https://btizzy.github.io/weathervane-cottages-redesign/assets/property/sunset-2.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "TouristAttraction",
-    "name": "Weathervane Cottages — Local Area Guide",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1172 West Main Road",
-      "addressLocality": "Portsmouth",
-      "addressRegion": "RI",
-      "postalCode": "02871",
-      "addressCountry": "US"
-    }
+    "@graph": [
+      {
+        "@type": "Place",
+        "name": "Weathervane Cottages",
+        "description": "Boutique cottage retreat on the west side of Aquidneck Island in Portsmouth, Rhode Island.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1172 West Main Road",
+          "addressLocality": "Portsmouth",
+          "addressRegion": "RI",
+          "postalCode": "02871",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.6021,
+          "longitude": -71.2701
+        },
+        "telephone": "+14013668010"
+      },
+      {
+        "@type": "TouristAttraction",
+        "name": "Aquidneck Island & Newport County",
+        "description": "Newport mansions, Cliff Walk, Narragansett Bay, Bristol, beaches, farms, and vineyards accessible from Weathervane Cottages.",
+        "url": "https://btizzy.github.io/weathervane-cottages-redesign/area.html"
+      }
+    ]
   }
   </script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,24..144,300..700;1,24..144,300..700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css" />
 </head>
-<body class="page page--area">
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header is-scrolled" id="siteHeader">
-    <div class="site-header__inner wrap">
-      <a href="index.html" class="brand" aria-label="Weathervane Cottages home">
-        <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true">
-          <path d="M16 2 L16 28 M16 6 L4 16 L28 16 M16 6 L8 14 L24 14 M16 6 L10 18 L22 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"/>
-          <circle cx="16" cy="4" r="1.6" fill="currentColor"/>
-        </svg>
-        <span class="brand__text">Weathervane<small>Cottages · Portsmouth, RI</small></span>
+  <header class="site-header" id="site-header">
+    <div class="site-header__inner">
+      <a class="site-logo" href="index.html" aria-label="Weathervane Cottages home">
+        <span class="site-logo__mark">W</span>
+        <span class="site-logo__text">Weathervane<span>Cottages</span></span>
       </a>
-      <nav class="nav" id="nav">
-        <ul class="nav__list">
-          <li><a href="stay.html" class="nav__link">Stay</a></li>
-          <li><a href="gatherings.html" class="nav__link">Gather</a></li>
-          <li><a href="story.html" class="nav__link">Our Story</a></li>
-          <li><a href="area.html" class="nav__link">The Area</a></li>
-          <li><a href="faq.html" class="nav__link">FAQ</a></li>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul class="site-nav__list">
+          <li><a href="stay.html">Stay</a></li>
+          <li><a href="gatherings.html">Gatherings</a></li>
+          <li><a href="story.html">Our Story</a></li>
+          <li><a href="area.html" aria-current="page">The Area</a></li>
+          <li><a href="faq.html">FAQ</a></li>
         </ul>
-        <a href="book.html" class="btn btn--sunset btn-arrow nav__cta">Book Direct</a>
+        <a class="btn btn--primary btn--sm site-nav__cta" href="book.html">Book Direct</a>
       </nav>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
-        <span></span>
+
+      <a class="btn btn--primary btn--sm header-cta-mobile" href="book.html">Book</a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
       </button>
     </div>
   </header>
 
-  <section class="page-header">
-    <div class="page-header__media">
-      <img src="assets/property/aerial-1.jpg" alt="Aerial view of Weathervane Cottages" />
-    </div>
-    <div class="page-header__overlay"></div>
-    <div class="page-header__inner wrap">
-      <div class="t-eyebrow" style="color: var(--c-sunset-soft);">The Area</div>
-      <h1 class="t-display">The best of <em>Aquidneck Island</em>.</h1>
-      <p class="t-lede">On the quieter west side of the island — 4.5 miles from Newport, 7 miles from Bristol. Beaches, farms, vineyards, sailing, and easy day trips up and down the New England coast.</p>
-    </div>
-  </section>
+  <main id="main">
+    <section class="page-hero">
+      <div class="page-hero__media">
+        <img src="assets/property/sunset-2.jpg" alt="Sunset over Narragansett Bay from Aquidneck Island" width="1920" height="900" fetchpriority="high">
+      </div>
+      <div class="page-hero__scrim" aria-hidden="true"></div>
+      <div class="container">
+        <div class="page-hero__content">
+          <p class="eyebrow eyebrow--light">Newport County</p>
+          <h1 class="page-hero__title">Aquidneck Island at your <em>doorstep</em></h1>
+          <p class="page-hero__lede">West-facing sunsets over Narragansett Bay. Newport 4.5 miles south. Bristol 7 miles north. Discover the perfect balance between serenity and exploration.</p>
+        </div>
+      </div>
+    </section>
 
-  <!-- Overview -->
-  <section class="section">
-    <div class="wrap-wide">
-      <div class="accom">
-        <div class="accom__media" data-reveal>
-          <img src="assets/property/aerial-2.jpg" alt="Aerial view of Weathervane's courtyard" />
-        </div>
-        <div class="accom__body" data-reveal data-reveal-delay="1">
-          <div class="t-eyebrow">Where you'll be</div>
-          <h2 class="t-display">Better than <em>central</em>.</h2>
-          <p>Located on the western side of Aquidneck Island, Weathervane gives you the best of both worlds: peaceful, residential surroundings with sunset views over Narragansett Bay — and a 15-minute drive to the bustle of Newport, the Cliff Walk, and the famous mansions.</p>
-          <p>You're 7 miles from Bristol (home of the oldest 4th of July parade in the country), 12 minutes to Sachuest Beach, and an easy day trip to Providence, Mystic CT, Cape Cod, or Boston.</p>
-          <ul class="accom__list">
-            <li>4.5 mi to Newport waterfront</li>
-            <li>7 mi to Bristol historic district</li>
-            <li>1.5 mi to Glen Farm (event venue)</li>
-            <li>30 mi to Providence</li>
-          </ul>
+    <!-- OVERVIEW -->
+    <section class="section">
+      <div class="container">
+        <div class="split">
+          <div class="split__copy reveal">
+            <p class="eyebrow">Location</p>
+            <h2 class="section-title">Portsmouth, western <em>shore</em></h2>
+            <p class="lead">Weathervane sits at 1172 West Main Road on the west side of Aquidneck Island—tucked enough for peace, connected enough for adventure.</p>
+            <p>Wake to birdsong and garden light. Spend the day in Newport’s harbor or on a Bristol café patio. Return for fire pits and a bay sunset that stops conversation mid-sentence. That is the rhythm here.</p>
+            <ul class="distance-list">
+              <li><strong>4.5 mi</strong> <span>Newport</span></li>
+              <li><strong>7 mi</strong> <span>Bristol</span></li>
+              <li><strong>25 mi</strong> <span>Providence</span></li>
+              <li><strong>70 mi</strong> <span>Boston</span></li>
+            </ul>
+          </div>
+          <div class="split__media reveal">
+            <figure class="media-frame">
+              <img src="assets/property/aerial-1.jpg" alt="Aerial view over Aquidneck Island and the bay" width="1000" height="750" loading="lazy">
+            </figure>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Attractions -->
-  <section class="section accom--alt">
-    <div class="wrap">
-      <div class="section-head">
-        <div class="t-eyebrow">Within 20 minutes</div>
-        <h2 class="t-display">Nearby <em>favorites</em></h2>
-        <p>From iconic cliff walks to pick-your-own farms — all a short drive from your cottage.</p>
-      </div>
-      <div class="attractions">
-        <div class="attraction-card" data-reveal>
-          <div class="attraction-card__media"><img src="assets/property/garden-2.jpg" alt="Cliff Walk" loading="lazy" /></div>
-          <div class="attraction-card__body">
-            <span class="attraction-card__chip">Newport</span>
-            <h3>Cliff Walk</h3>
-            <p>A 3.5-mile scenic walk along the eastern shore of Newport, with the ocean on one side and Gilded Age mansions on the other.</p>
-            <div class="dist">~ 15 min · 4.5 mi</div>
-          </div>
+    <!-- ATTRACTIONS -->
+    <section class="section section--cream">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="eyebrow">Nearby</p>
+          <h2 class="section-title">Things to see &amp; <em>do</em></h2>
+          <p class="section-desc">A curated shortlist of Aquidneck and East Bay favorites—enough to fill a weekend or a week.</p>
         </div>
-        <div class="attraction-card" data-reveal data-reveal-delay="1">
-          <div class="attraction-card__media"><img src="assets/property/garden-1.jpg" alt="Beaches" loading="lazy" /></div>
-          <div class="attraction-card__body">
-            <span class="attraction-card__chip">Beaches</span>
-            <h3>Sachuest &amp; Second Beach</h3>
-            <p>Rhode Island's most beloved beaches — soft sand, Atlantic surf, and food shacks within walking distance.</p>
-            <div class="dist">~ 12 min · 5 mi</div>
-          </div>
-        </div>
-        <div class="attraction-card" data-reveal data-reveal-delay="2">
-          <div class="attraction-card__media"><img src="assets/property/grounds-3.jpg" alt="Sweet Berry Farm" loading="lazy" /></div>
-          <div class="attraction-card__body">
-            <span class="attraction-card__chip">Middletown</span>
-            <h3>Sweet Berry Farm</h3>
-            <p>Pick-your-own berries in season, outdoor lunch, fresh produce, and a great farm store. Family favorite.</p>
-            <div class="dist">~ 10 min · 4 mi</div>
-          </div>
-        </div>
-        <div class="attraction-card" data-reveal>
-          <div class="attraction-card__media"><img src="assets/property/grounds-1.jpg" alt="Glen Farm" loading="lazy" /></div>
-          <div class="attraction-card__body">
-            <span class="attraction-card__chip">Portsmouth</span>
-            <h3>Glen Farm</h3>
-            <p>Historic event venue on 80 acres — home of the Portsmouth Polocrosse Club and a stunning wedding venue.</p>
-            <div class="dist">~ 5 min · 1.5 mi</div>
-          </div>
-        </div>
-        <div class="attraction-card" data-reveal data-reveal-delay="1">
-          <div class="attraction-card__media"><img src="assets/property/grounds-2.jpg" alt="Newport Vineyards" loading="lazy" /></div>
-          <div class="attraction-card__body">
-            <span class="attraction-card__chip">Middletown</span>
-            <h3>Newport Vineyards</h3>
-            <p>Rhode Island's largest vineyard. Tastings, tours, and on-site restaurant. Live music on weekends.</p>
-            <div class="dist">~ 10 min · 4 mi</div>
-          </div>
-        </div>
-        <div class="attraction-card" data-reveal data-reveal-delay="2">
-          <div class="attraction-card__media"><img src="assets/property/cottage-exterior-2.jpg" alt="Bristol" loading="lazy" /></div>
-          <div class="attraction-card__body">
-            <span class="attraction-card__chip">Bristol</span>
-            <h3>Bristol Waterfront</h3>
-            <p>Charming seaside town, home of the oldest 4th of July parade in America. Indie shops, restaurants, and harbor walks.</p>
-            <div class="dist">~ 12 min · 7 mi</div>
-          </div>
-        </div>
-        <div class="attraction-card" data-reveal>
-          <div class="attraction-card__media"><img src="assets/property/grounds-1.jpg" alt="Clements Marketplace" loading="lazy" /></div>
-          <div class="attraction-card__body">
-            <span class="attraction-card__chip">Portsmouth</span>
-            <h3>Clements' Marketplace</h3>
-            <p>A local grocery shop with everything you need for a cozy night in — wine, fresh pasta, prepared foods, and a great bakery.</p>
-            <div class="dist">~ 5 min · 1.5 mi</div>
-          </div>
-        </div>
-        <div class="attraction-card" data-reveal data-reveal-delay="1">
-          <div class="attraction-card__media"><img src="assets/property/aerial-1.jpg" alt="Sailing" loading="lazy" /></div>
-          <div class="attraction-card__body">
-            <span class="attraction-card__chip">Newport</span>
-            <h3>Sailing &amp; Harbor Cruises</h3>
-            <p>Newport is the sailing capital of the world. Day sails, sunset cruises, and America's Cup history tours.</p>
-            <div class="dist">~ 15 min · 4.5 mi</div>
-          </div>
-        </div>
-        <div class="attraction-card" data-reveal data-reveal-delay="2">
-          <div class="attraction-card__media"><img src="assets/property/lounge-1.jpg" alt="Newport Polo" loading="lazy" /></div>
-          <div class="attraction-card__body">
-            <span class="attraction-card__chip">Portsmouth</span>
-            <h3>Newport Polo</h3>
-            <p>Saturday matches all summer at Glen Farm. Bring a picnic, watch the game, and enjoy an authentic New England tradition.</p>
-            <div class="dist">~ 5 min · 1.5 mi</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Day trips -->
-  <section class="day-trips">
-    <div class="wrap day-trips__inner">
-      <div class="t-eyebrow">Day trips</div>
-      <h2 class="t-display">Beyond the <em>bay</em>.</h2>
-      <div class="day-trips__grid">
-        <div class="day-trips__card" data-reveal>
-          <h3>Providence</h3>
-          <p>RISD Museum, WaterFire, Federal Hill dining, and a thriving food scene.</p>
-          <div class="day-trips__distance">~ 35 min · 30 mi</div>
-        </div>
-        <div class="day-trips__card" data-reveal data-reveal-delay="1">
-          <h3>Mystic, CT</h3>
-          <p>The seaport village, the aquarium, and charming bookshops. A perfect half-day.</p>
-          <div class="day-trips__distance">~ 50 min · 38 mi</div>
-        </div>
-        <div class="day-trips__card" data-reveal data-reveal-delay="2">
-          <h3>Cape Cod</h3>
-          <p>Chatham, Hyannis, and the Cape Cod National Seashore — a classic New England day.</p>
-          <div class="day-trips__distance">~ 1h 30m · 75 mi</div>
-        </div>
-        <div class="day-trips__card" data-reveal data-reveal-delay="3">
-          <h3>Boston</h3>
-          <p>History, harbor walks, the Freedom Trail, and the best food in New England.</p>
-          <div class="day-trips__distance">~ 1h 20m · 70 mi</div>
-        </div>
-      </div>
-    </div>
-  </section>
+        <div class="card-grid card-grid--3">
+          <article class="card card--minimal reveal">
+            <div class="card__media">
+              <img src="assets/property/sunset-3.jpg" alt="Narragansett Bay waters at golden hour" width="800" height="500" loading="lazy">
+            </div>
+            <div class="card__body">
+              <p class="card__meta">On your doorstep</p>
+              <h3 class="card__title">Narragansett Bay Sunsets</h3>
+              <p class="card__text">The western shore gift. Watch from your fire pit, deck, or garden—no reservation required.</p>
+            </div>
+          </article>
 
-  <section class="final-cta">
-    <div class="final-cta__media">
-      <img src="assets/lifestyle/fire-pit-3.jpg" alt="Guests around the fire pit at night" />
-    </div>
-    <div class="final-cta__overlay"></div>
-    <div class="final-cta__inner">
-      <h2 class="t-display">Plan your <em>stay</em>.</h2>
-      <p>Tell us when you're coming and what you'd like to do. We'll help you plan the perfect Aquidneck Island itinerary.</p>
-      <div class="final-cta__row">
-        <a href="book.html" class="btn btn--sunset btn-arrow btn--lg">Book Direct</a>
-        <a href="tel:+14013668010" class="btn btn--ghost btn--lg">Call (401) 366-8010</a>
+          <article class="card card--minimal reveal">
+            <div class="card__media">
+              <img src="assets/property/grounds-1.jpg" alt="Lush coastal landscape near the property" width="800" height="500" loading="lazy">
+            </div>
+            <div class="card__body">
+              <p class="card__meta">4.5 miles</p>
+              <h3 class="card__title">Newport Mansions</h3>
+              <p class="card__text">The Breakers, Marble House, Rosecliff—Gilded Age splendor along Bellevue Avenue.</p>
+            </div>
+          </article>
+
+          <article class="card card--minimal reveal">
+            <div class="card__media">
+              <img src="assets/property/grounds-2.jpg" alt="Coastal path scenery" width="800" height="500" loading="lazy">
+            </div>
+            <div class="card__body">
+              <p class="card__meta">4.5 miles</p>
+              <h3 class="card__title">Cliff Walk</h3>
+              <p class="card__text">3.5 miles of oceanfront path between mansion lawns and Atlantic surf. Wear good shoes.</p>
+            </div>
+          </article>
+
+          <article class="card card--minimal reveal">
+            <div class="card__media">
+              <img src="assets/property/garden-2.jpg" alt="Garden greenery reminiscent of local farms" width="800" height="500" loading="lazy">
+            </div>
+            <div class="card__body">
+              <p class="card__meta">Aquidneck Island</p>
+              <h3 class="card__title">Farms &amp; Vineyards</h3>
+              <p class="card__text">Farm stands, tasting rooms, and fields that feed the island’s tables. Ask us for current favorites.</p>
+            </div>
+          </article>
+
+          <article class="card card--minimal reveal">
+            <div class="card__media">
+              <img src="assets/lifestyle/lounge-1.jpg" alt="Relaxed outdoor setting" width="800" height="500" loading="lazy">
+            </div>
+            <div class="card__body">
+              <p class="card__meta">Newport Harbor</p>
+              <h3 class="card__title">Sailing &amp; the Waterfront</h3>
+              <p class="card__text">Harbor cruises, sailing lessons, Bowen’s and Bannister’s Wharf—seafood with a view.</p>
+            </div>
+          </article>
+
+          <article class="card card--minimal reveal">
+            <div class="card__media">
+              <img src="assets/property/garden-3.jpg" alt="Quiet natural setting" width="800" height="500" loading="lazy">
+            </div>
+            <div class="card__body">
+              <p class="card__meta">Island-wide</p>
+              <h3 class="card__title">Beaches</h3>
+              <p class="card__text">First Beach, Second Beach, Sachuest—Atlantic swims and sandbar walks within easy reach.</p>
+            </div>
+          </article>
+
+          <article class="card card--minimal reveal">
+            <div class="card__media">
+              <img src="assets/property/cottage-exterior-2.jpg" alt="Charming local architecture character" width="800" height="500" loading="lazy">
+            </div>
+            <div class="card__body">
+              <p class="card__meta">7 miles</p>
+              <h3 class="card__title">Downtown Bristol</h3>
+              <p class="card__text">America’s oldest Fourth of July parade, Thames Street shops, waterfront walks, and great coffee.</p>
+            </div>
+          </article>
+
+          <article class="card card--minimal reveal">
+            <div class="card__media">
+              <img src="assets/property/grounds-3.jpg" alt="Open path ideal for biking and walking" width="800" height="500" loading="lazy">
+            </div>
+            <div class="card__body">
+              <p class="card__meta">East Bay</p>
+              <h3 class="card__title">East Bay Bike Path</h3>
+              <p class="card__text">Fourteen scenic miles from Bristol to Providence—rent bikes and make a day of it.</p>
+            </div>
+          </article>
+
+          <article class="card card--minimal reveal">
+            <div class="card__media">
+              <img src="assets/rooms/interior-5.jpg" alt="Cozy interior inspiration for rainy day plans" width="800" height="500" loading="lazy">
+            </div>
+            <div class="card__body">
+              <p class="card__meta">Newport</p>
+              <h3 class="card__title">Dining &amp; Nightlife</h3>
+              <p class="card__text">From clam shacks to tasting menus—Newport County punches well above its weight at the table.</p>
+            </div>
+          </article>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <!-- DAY TRIPS -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="eyebrow">Farther afield</p>
+          <h2 class="section-title">Day <em>trips</em></h2>
+          <p class="section-desc">When you want a fuller day out—still back in time for the fire pit.</p>
+        </div>
+
+        <div class="card-grid card-grid--2">
+          <article class="day-card reveal">
+            <div class="day-card__index">01</div>
+            <h3 class="day-card__title">Providence</h3>
+            <p class="day-card__meta">~45 minutes</p>
+            <p>RISD Museum, WaterFire (seasonal), Federal Hill dining, and a capital city with serious creative energy.</p>
+          </article>
+          <article class="day-card reveal">
+            <div class="day-card__index">02</div>
+            <h3 class="day-card__title">Block Island</h3>
+            <p class="day-card__meta">Ferry from Point Judith or Newport (seasonal)</p>
+            <p>Bluffs, bikes, and beaches on Rhode Island’s beloved offshore escape.</p>
+          </article>
+          <article class="day-card reveal">
+            <div class="day-card__index">03</div>
+            <h3 class="day-card__title">Little Compton &amp; Tiverton</h3>
+            <p class="day-card__meta">~30–40 minutes</p>
+            <p>Quiet stone walls, farm stands, Sakonnet vineyards, and some of the state’s most beautiful back roads.</p>
+          </article>
+          <article class="day-card reveal">
+            <div class="day-card__index">04</div>
+            <h3 class="day-card__title">Cape Cod (west end)</h3>
+            <p class="day-card__meta">~90 minutes</p>
+            <p>Cross the Bourne Bridge for a Falmouth or Woods Hole afternoon—then home to quieter shores.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- BALANCE -->
+    <section class="section section--navy band-message">
+      <div class="container container--narrow">
+        <div class="band-message__content reveal">
+          <h2 class="section-title">Serenity and exploration in perfect <em>balance</em></h2>
+          <p>Whether you fill every hour or protect empty ones, Weathervane is the soft place to land. Adventure by day. Sanctuary by night.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="final-cta">
+      <div class="final-cta__media" aria-hidden="true">
+        <img src="assets/property/sunset-4.jpg" alt="" width="1920" height="900" loading="lazy">
+      </div>
+      <div class="final-cta__scrim" aria-hidden="true"></div>
+      <div class="container">
+        <div class="final-cta__content reveal">
+          <p class="eyebrow eyebrow--light">Your basecamp awaits</p>
+          <h2 class="final-cta__title">Explore by day. <em>Recharge</em> by night.</h2>
+          <p class="final-cta__text">Book your cottage and make Aquidneck Island home for a while.</p>
+          <div class="final-cta__actions">
+            <a class="btn btn--primary btn--lg" href="book.html">Book Direct</a>
+            <a class="btn btn--ghost-light btn--lg" href="tel:+14013668010">Call (401) 366-8010</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer class="site-footer">
-    <div class="wrap">
+    <div class="container">
       <div class="site-footer__grid">
-        <div>
-          <div class="footer__brand">Weathervane Cottages</div>
-          <p class="footer__pitch">Relax. Recline. Recharge.<br />Portsmouth, Rhode Island.</p>
-          <div class="footer__contact">
-            <div><strong>1172 West Main Road</strong></div>
-            <div>Portsmouth, RI 02871</div>
-            <div><a href="tel:+14013668010">(401) 366-8010</a></div>
-          </div>
+        <div class="site-footer__brand">
+          <a class="site-logo site-logo--footer" href="index.html">
+            <span class="site-logo__mark">W</span>
+            <span class="site-logo__text">Weathervane<span>Cottages</span></span>
+          </a>
+          <p class="site-footer__tagline">Relax. Recline. Recharge.</p>
+          <p class="site-footer__promise">Your cozy home away from home on Aquidneck Island.</p>
         </div>
-        <div>
-          <div class="footer__heading">Stay</div>
-          <ul class="footer__list">
-            <li><a href="stay.html">Cottages</a></li>
-            <li><a href="stay.html">Glamping Tents</a></li>
-            <li><a href="stay.html">The Bungalow</a></li>
-            <li><a href="gatherings.html">Private Booking</a></li>
-          </ul>
-        </div>
-        <div>
-          <div class="footer__heading">Experience</div>
-          <ul class="footer__list">
+        <div class="site-footer__col">
+          <h3 class="site-footer__heading">Explore</h3>
+          <ul class="site-footer__links">
+            <li><a href="stay.html">Stay</a></li>
+            <li><a href="gatherings.html">Gatherings</a></li>
             <li><a href="story.html">Our Story</a></li>
             <li><a href="area.html">The Area</a></li>
-            <li><a href="gatherings.html">Gatherings &amp; Events</a></li>
             <li><a href="faq.html">FAQ</a></li>
+            <li><a href="book.html">Book Direct</a></li>
           </ul>
         </div>
-        <div>
-          <div class="footer__heading">Connect</div>
-          <div class="footer__social">
-            <a href="https://www.instagram.com/weathervanecottages/" aria-label="Instagram">IG</a>
-            <a href="https://www.facebook.com/profile.php?id=61563198885459" aria-label="Facebook">FB</a>
-          </div>
+        <div class="site-footer__col">
+          <h3 class="site-footer__heading">Contact</h3>
+          <ul class="site-footer__contact">
+            <li><a href="tel:+14013668010">(401) 366-8010</a></li>
+            <li><a href="mailto:stay@weathervanecottages.com">stay@weathervanecottages.com</a></li>
+            <li>1172 West Main Road<br>Portsmouth, RI 02871</li>
+            <li class="site-footer__license">License RE.06076-STR</li>
+          </ul>
+        </div>
+        <div class="site-footer__col">
+          <h3 class="site-footer__heading">Follow</h3>
+          <ul class="site-footer__social">
+            <li><a href="https://www.instagram.com/weathervanecottages/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61563198885459" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+          </ul>
+          <a class="btn btn--primary btn--sm site-footer__cta" href="book.html">Book Direct</a>
         </div>
       </div>
-      <div class="footer__bottom">
-        <div>© 2026 Weathervane Cottages · All rights reserved</div>
-        <div class="footer__legal"><a href="#">Privacy</a><a href="#">Terms</a></div>
+      <div class="site-footer__bottom">
+        <p>&copy; <span data-year></span> Weathervane Cottages. Family-owned on Aquidneck Island.</p>
       </div>
     </div>
   </footer>
