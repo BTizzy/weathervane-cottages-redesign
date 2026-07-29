@@ -402,8 +402,6 @@ svg[class^="icon-"] {
   top: 0;
   z-index: 100;
   background: rgba(247, 241, 232, 0.92);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--line);
   height: var(--header-h);
 }
