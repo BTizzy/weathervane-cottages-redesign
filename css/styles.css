@@ -1897,3 +1897,14 @@ svg[class^="icon-"] {
     animation: none !important;
   }
 }
+/* Real logo replacement (added 2026-07-29) */
+.site-logo__mark {
+  width: 180px;
+  height: 52px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.site-logo:hover .site-logo__mark {
+  filter: brightness(1.1);
+}
