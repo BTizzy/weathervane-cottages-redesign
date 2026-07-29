@@ -17,7 +17,12 @@
   <header class="site-header" id="site-header">
     <div class="site-header__inner">
       <a class="site-logo" href="index.html" aria-label="Weathervane Cottages home">
-        <img src="assets/logo/logo-300x125.png" alt="Weathervane Cottages" width="144" height="60" class="site-logo__mark" decoding="async">
+        <svg class="site-logo__mark" width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+          <path d="M18 4v28M18 8c-3 4-8 6-8 12 0 4 3.5 7 8 7s8-3 8-7c0-6-5-8-8-12z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M12 18h12M14 22h8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          <circle cx="18" cy="6" r="1.5" fill="currentColor"/>
+        </svg>
+        <span class="site-logo__text">Weathervane<span>Cottages</span></span>
       </a>
       <nav class="site-nav" id="site-nav" aria-label="Primary">
         <ul class="site-nav__list">
@@ -179,7 +184,12 @@
       <div class="site-footer__grid">
         <div class="site-footer__brand">
           <a class="site-logo site-logo--footer" href="index.html" aria-label="Weathervane Cottages home">
-            <img src="assets/logo/logo-white.png" alt="Weathervane Cottages" width="120" height="50" class="site-logo__mark" decoding="async">
+            <svg class="site-logo__mark" width="32" height="32" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+              <path d="M18 4v28M18 8c-3 4-8 6-8 12 0 4 3.5 7 8 7s8-3 8-7c0-6-5-8-8-12z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 18h12M14 22h8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+              <circle cx="18" cy="6" r="1.5" fill="currentColor"/>
+            </svg>
+            <span class="site-logo__text">Weathervane<span>Cottages</span></span>
           </a>
           <p class="site-footer__tagline">Relax. Recline. Recharge.</p>
           <p class="site-footer__address">1172 West Main Road<br>Portsmouth, RI 02871</p>
