@@ -60,14 +60,6 @@
   animation-timing-function: var(--ease);
 }
 
-.site-header {
-  view-transition-name: site-header;
-}
-
-.site-logo {
-  view-transition-name: site-logo;
-}
-
 /* --------------------------------------------------------------------------
    Reset / Base
    -------------------------------------------------------------------------- */
